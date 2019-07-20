@@ -2,14 +2,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import time
+import random
 
 ## Load the training set
-train_data = np.load('~/train_data.npy')
-train_labels = np.load('~/train_labels.npy')
+train_data = np.load('train_data.npy')
+train_labels = np.load('train_labels.npy')
 
 ## Load the testing set
-test_data = np.load('MNIST/test_data.npy')
-test_labels = np.load('MNIST/test_labels.npy')
+test_data = np.load('test_data.npy')
+test_labels = np.load('test_labels.npy')
 
 ## Define a function that displays a digit given its vector representation
 def show_digit(x):
