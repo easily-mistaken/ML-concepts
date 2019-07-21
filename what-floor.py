@@ -1,5 +1,7 @@
-# Standard includes
-%matplotlib inline
+from IPython import get_ipython
+ipy = get_ipython()
+if ipy is not None:
+    ipy.run_line_magic('matplotlib', 'inline')
 import numpy as np
 import matplotlib.pyplot as plt
 # Useful module for dealing with the Gaussian density
