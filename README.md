@@ -19,5 +19,3 @@ The optimal prediction is said to be the one with highest πj(Pj(x)).
 These include wineuni.py, winebi.py, winemulti.py. The dataset to this is in wine.data.txt and a general overview of the data in wine.names.txt. We use generative modelling using univariate gaussian, bivariate gaussian and multivariate gaussian in wineuni.py, winebi.py and winemulti.py.
 
 Gaussian:
-
->>>>>>> b021d90644722ccb06c4b09ff55aad1e60e766b2
