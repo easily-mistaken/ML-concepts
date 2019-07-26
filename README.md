@@ -1,8 +1,7 @@
 Machine learning concepts
-
-prediction, classification, and calculating their error rate 
-<<<<<<< HEAD
 =======
+
+prediction, classification, and calculating their error rate
 
 1. MNIST files on Handwritten digits
 
